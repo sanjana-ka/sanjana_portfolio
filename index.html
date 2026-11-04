@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sanjana K.A. — UI/UX &amp; Graphic Designer</title>
+<meta name="description" content="Portfolio of Sanjana K.A., UI/UX and graphic designer in Mumbai. Real projects, my role on each, and the design system behind this page.">
+<meta name="theme-color" content="#FBF4EE">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<header class="nav-wrap">
+  <nav class="nav" id="nav">
+    <a class="logo" href="#top" aria-label="Sanjana K.A. home"><span class="spark" aria-hidden="true"></span>Sanjana K.A.</a>
+    <div class="links" id="links">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#toolkit">Toolkit</a><a href="#path">Path</a>
+    </div>
+    <a class="btn btn-navy btn-sm magnetic" href="#contact">Contact</a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-row">
+    <div class="copy">
+      <span class="pill pill-blush reveal">UI/UX &amp; GRAPHIC DESIGNER · MUMBAI</span>
+      <h1 class="split" id="h1">Calm interfaces for complex products.</h1>
+      <p class="lead reveal">I design screens, systems and brands for AI and engineering tools, with a security-minded eye for trust, clarity and the details that make software feel easy.</p>
+      <div class="cta reveal">
+        <a class="btn btn-navy magnetic" href="#work">See my work</a>
+        <a class="btn btn-ghost magnetic" href="#contact">Say hello</a>
+      </div>
+    </div>
+    <div class="arch-art" id="arch">
+      <div class="arch" data-speed="0">
+        <div class="sun" data-speed="0.08"><img src="assets/sana-hero.jpg" alt="Sanjana K.A." width="300" height="300"></div>
+        <div class="spark big" data-speed="-0.06"></div>
+        <div class="shot a" data-speed="0.04"><div class="bar"><i></i><i></i><i></i></div><div class="img" data-img="pteck-workspace" data-label="PTeck P&amp;ID PRO"></div></div>
+        <div class="shot b" data-speed="-0.05"><div class="bar"><i></i><i></i><i></i></div><div class="img" data-img="mbq-hero" data-label="My Body Qode"></div></div>
+        <div class="shot c" data-speed="0.07"><div class="bar"><i></i><i></i><i></i></div><div class="img" data-img="rg-hero" data-label="Rashtragranth"></div></div>
+      </div>
+      <span class="chip c1" data-speed="-0.1">AI PLATFORMS</span>
+      <span class="chip c2" data-speed="0.1">DESIGN SYSTEMS</span>
+    </div>
+  </div>
+</section>
+
+
+<section id="work" class="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="pill pill-blush reveal">01 — WORK</span>
+      <h2 class="reveal">Six products, one habit: make the hard part feel easy.</h2>
+      <p class="sub reveal">Real frames from my Figma files. Red Fibre is live; the rest are in development or awaiting deployment.</p>
+    </div>
+    <div class="projects" id="projects"></div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap two">
+    <div class="left">
+      <span class="pill pill-sage reveal">02 — ABOUT</span>
+      <h2 class="reveal">Design that’s security-conscious, system-minded and kind to the user.</h2>
+      <figure class="me reveal"><div class="me-arch"><img src="assets/sanjana.jpg" alt="Sanjana K.A." loading="lazy"></div><span class="sticker">Hi, I’m Sana ✦</span></figure>
+    </div>
+    <div class="right">
+      <p class="reveal">I’m a Graphic &amp; UI/UX Designer with a B.Tech in Computer Engineering (Pillai College of Engineering, University of Mumbai, 2022–2026). My cybersecurity internship at Maharashtra Cyber shaped how I think about trust, risk and clarity in an interface.</p>
+      <p class="reveal">Right now I design screens and user flows for AI-driven engineering tools at Pipetech AI Technologies, working closely with engineers so what’s designed is what ships. I also led the design team for events and branding at CSI-PCE, mentoring junior creatives.</p>
+      <div class="tags reveal"><span class="tag">ENGLISH · FLUENT</span><span class="tag">HINDI · FLUENT</span><span class="tag">MALAYALAM · NATIVE</span></div>
+      <div class="stats reveal">
+        <div><b data-count="6">0</b><span>projects</span></div>
+        <div><b data-count="20" data-plus="1">0</b><span>screens in PTeck</span></div>
+        <div><b data-count="4">0</b><span>roles so far</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="toolkit" class="toolkit">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="pill pill-teal reveal">03 — TOOLKIT</span>
+      <h2 class="reveal">The system behind this page.</h2>
+      <p class="sub reveal">I build every project on tokens, type and components — so here’s this portfolio’s own mini style guide.</p>
+    </div>
+    <div class="grid-tk">
+      <div class="card reveal tilt">
+        <h3>Colour <small>click to copy</small></h3>
+        <div class="swatches" id="swatches"></div>
+      </div>
+      <div class="card reveal tilt">
+        <h3>Type</h3>
+        <div class="aa">Aa</div>
+        <div class="spec"><b class="f-head">Bricolage Grotesque</b><span>Headings · 800 / 700</span></div>
+        <div class="spec"><b>DM Sans</b><span>Body · 400 / 500</span></div>
+        <div class="spec"><b class="f-mono">DM Mono</b><span>Labels · uppercase · +0.08em</span></div>
+      </div>
+      <div class="card reveal tilt">
+        <h3>Components</h3>
+        <div class="comp-row"><a class="btn btn-navy btn-sm" href="#toolkit">Button</a><span class="pill pill-blush">Pill</span><span class="status live">Live</span><span class="status dev">In development</span></div>
+        <dl class="specs"><dt>RADIUS</dt><dd>12 (cards) · 32 (panels) · 999 (pills, arches)</dd><dt>SPACING</dt><dd>4 · 8 · 12 · 16 · 24 · 32 · 48 · 72 · 112</dd><dt>GRID</dt><dd>1200 max · 12 col · 24 gutter</dd></dl>
+      </div>
+      <div class="card reveal tilt">
+        <h3>Skills</h3>
+        <div class="grp"><h4>DESIGN</h4><p>Figma · Photoshop · Illustrator · Canva · Wireframing · Prototyping · Responsive design</p></div>
+        <div class="grp"><h4>BUILD</h4><p>HTML · CSS · JavaScript · React · Node.js · Python · SQL · Git</p></div>
+        <div class="grp"><h4>PEOPLE</h4><p>Leadership · Communication · Time management</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="path" class="path">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="pill pill-blush reveal">04 — PATH</span>
+      <h2 class="reveal">Where I’ve been designing.</h2>
+    </div>
+    <div class="timeline">
+      <div class="entry reveal"><div class="when">MAY 2026 → NOW</div><div class="tcard tilt"><h3>Graphics &amp; UI/UX Designer</h3><h5>PIPETECH AI TECHNOLOGIES</h5><p>Design screens and user flows for AI-driven platform tools; keep visuals consistent with engineers.</p></div></div>
+      <div class="entry reveal"><div class="when">DEC 2025 → MAY 2026</div><div class="tcard tilt"><h3>Cybersecurity Intern</h3><h5>MAHARASHTRA CYBER</h5><p>Hands-on with cybersecurity concepts, tools and risk analysis.</p></div></div>
+      <div class="entry reveal"><div class="when">JUL 2025 → JUN 2026</div><div class="tcard tilt"><h3>Creatives Head</h3><h5>CSI-PCE, NAVI MUMBAI</h5><p>Led the design team for events and branding; mentored junior creatives. Previously Joint Creatives Head (Aug 2024 – Jun 2025).</p></div></div>
+      <div class="entry reveal"><div class="when">OCT – NOV 2023</div><div class="tcard tilt"><h3>Web Development Intern</h3><h5>PRODIGY INFOTECH, MUMBAI</h5><p>Built responsive websites in HTML, CSS and JavaScript; created wireframes and UI components.</p></div></div>
+    </div>
+    <div class="extras">
+      <div class="card reveal tilt"><h3>Also on my résumé</h3><p>→ AI Bias Detection Tool — UI/UX Designer, team of 4. Turned fairness metrics into readable dashboards.</p><p>→ Plant-Based Recipe Website — Front-end developer &amp; designer, team of 3. Responsive, mobile-first landing page.</p></div>
+      <div class="card reveal tilt"><h3>Certifications</h3><p>→ Oracle Cloud Infrastructure Foundations — Coursera</p><p>→ Meta Database Engineer — Coursera</p><p>→ PHP &amp; MySQL — Spoken Tutorial, IIT Bombay</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-arch">
+    <div class="spark big spin" aria-hidden="true"></div>
+    <span class="pill pill-navy">05 — CONTACT</span>
+    <h2 class="split-c">Let’s build something calm.</h2>
+    <p>Open to design roles, internships and freelance projects. The quickest way to reach me is email.</p>
+    <div class="cta center">
+      <a class="btn btn-blush magnetic" href="mailto:ajithsanjana47@gmail.com">ajithsanjana47@gmail.com</a>
+      <button class="btn btn-ghost magnetic" id="copy">Copy email</button>
+    </div>
+    <div class="clinks">
+      <a href="https://linkedin.com/in/sanjana-k-a-133571259" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://github.com/sanjana-ka" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="tel:+918169000924">+91 81690 00924</a>
+      <a href="assets/resume.pdf" download>Résumé ↓</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer wrap"><span>© 2026 SANJANA K.A.</span><span>DESIGNED IN FIGMA · BUILT WITH HTML, CSS &amp; JS · MUMBAI, INDIA</span></footer>
+
+<div class="toast" id="toast">Copied</div>
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script src="home.js"></script>
+</body>
+</html>
