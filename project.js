@@ -1,10 +1,11 @@
 (() => {
 const slug = new URLSearchParams(location.search).get('p');
-const i = PROJECTS.findIndex(p => p.slug === slug);
+const i = PROJECTS.findIndex(p => p.slug === slug || (slug === "baligh-me" && p.slug === "balligh-me") || (slug === "balligh-me" && p.slug === "baligh-me"));
 const root = $('#case');
 if (i < 0) { root.innerHTML = `<div class="wrap nf"><h1>Project not found</h1><p><a class="btn btn-navy" href="index.html#work">← Back to work</a></p></div>`; return; }
 const p = Object.assign({}, PROJECTS[i], (window.CASE||{})[PROJECTS[i].slug]||{}), next = PROJECTS[(i+1)%PROJECTS.length], prev = PROJECTS[(i+PROJECTS.length-1)%PROJECTS.length];
 document.title = `${p.name} — Sanjana K.A.`;
+root.className = p.mobile ? 'mobile-proj' : '';
 root.innerHTML = `
 <section class="c-hero"><div class="wrap">
   <a class="back" href="index.html#work">← All work</a>
