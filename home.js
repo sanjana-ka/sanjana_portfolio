@@ -2,7 +2,7 @@
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 $('#projects').innerHTML = PROJECTS.map(p => `
-<article class="proj${p.solo?' solo':''} reveal" data-href="project.html?p=${p.slug}" tabindex="0" role="link" aria-label="Open ${esc(p.name)} case study">
+<article class="proj${p.solo?' solo':''}${p.mobile?' mobile':''} reveal" data-href="project.html?p=${p.slug}" tabindex="0" role="link" aria-label="Open ${esc(p.name)} case study">
   <div class="info">
     <div class="top"><span>${p.n}</span><span class="status ${p.live?'live':'dev'}">${p.live?'Live':'In development'}</span></div>
     <h3>${esc(p.name)}</h3>

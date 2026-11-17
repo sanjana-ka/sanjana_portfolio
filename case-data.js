@@ -278,5 +278,52 @@ window.CASE={
     "Designed the landing page with its AI search prompt and entry points, the “List your property for free” page and the map view with listing cards."
    ]
   ]
- }
+ },
+  "balligh-me": {
+   "about": [
+    "Balligh Me is a bilingual (English and Arabic, RTL) mobile app. Owners register their vehicles and print a QR sticker for each one. A person who scans the sticker can send the owner an alert (for example, a blocked or parked-in car) without seeing the owner’s phone number or plate.",
+    "The product spans signed-out landing and authentication, onboarding (notification channels and emergency contacts), customer app (Home, Vehicles, Scan, Alerts, Account), a public QR page for people reaching the vehicle owner, and an admin console."
+   ],
+   "facts": [
+    [
+     "Industry",
+     "Mobility / vehicle services"
+    ],
+    [
+     "Audience",
+     "Vehicle owners and people who scan stickers to reach them"
+    ],
+    [
+     "Offers",
+     "QR sticker per vehicle · anonymous alerts · alert history · emergency contact · EN/AR support"
+    ],
+    [
+     "Surfaces",
+     "Signed-out landing & auth · onboarding · customer app · public QR page · admin console"
+    ]
+   ],
+   "process": [
+    [
+     "Analyze user scenarios & privacy",
+     "Mapped real-world vehicle alert situations — blocked cars, parking issues, emergency contact — and structured an anonymous contact model so scanners can reach owners without seeing their phone numbers or plates."
+    ],
+    [
+     "Build the minimal style sheet",
+     "Created a minimal, purposeful style sheet inspired by the Al Tasheer Mena website, establishing colour, typography, spacing scale, and reusable UI components."
+    ],
+    [
+     "Design for bilingual & RTL",
+     "Designed every screen with full Right-to-Left (RTL) layout mirroring for Arabic alongside English, preserving optical hierarchy, button positions, and comfortable reading cadence."
+    ],
+    [
+     "Design end-to-end user flows",
+     "Designed low-fidelity screens for the entire product: sign up and sign in, onboarding (notification channels, emergency contact), home, vehicles list, scan, alerts, and account."
+    ],
+    [
+     "Public QR scan & support flows",
+     "Designed the lightweight public QR landing experience for anyone scanning a vehicle sticker to send instant alerts without installing the app, plus support and edge states."
+    ]
+   ]
+  }
 };
+window.CASE["baligh-me"] = window.CASE["balligh-me"];
